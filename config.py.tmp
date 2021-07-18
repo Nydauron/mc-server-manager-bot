@@ -1,0 +1,8 @@
+# Config file for discord bot
+# Be sure to change this file name to "config.py"
+
+BOT_TOKEN = "YOUR BOT TOKEN HERE"
+BOT_PREFIX = "!"
+SERVER_IP = "YOUR SERVER IP HERE"
+SERVER_DIRECTORY = "PATH WHERE YOUR MC SERVER DIR IS"
+BASH_COMMAND = ["java", "-Xmx4G", "-jar", "server.jar", "--nogui"]
