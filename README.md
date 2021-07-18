@@ -19,6 +19,10 @@ bot for the first time. Below is a list of all the settings in the config file:
 | SERVER_DIRECTORY | A relative or absolute path to the directory where the server is. (Most likely will be ".." if you created the new folder inside your server directory.) |
 | BASH_COMMAND | An array that contains the process and necessary arguments that will be run to launch the server. |
 
+Install the dependencies to your virtual environment by doing `pip install -r requirements.txt`.
+
+Run the bot simply by typing `python app.py`. 
+
 ## Commands
 
 - `!start`: Starts the server. All logging will be sent to the same channel as which the command was sent in.
