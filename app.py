@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix=(config.BOT_PREFIX), case_insensitive=True, in
 
 @bot.event
 async def on_message(message):
-    if message.author == bot.user:
+    if message.author == bot.user or message.webhook_id:
         return
     print(message.content)
     await bot.process_commands(message)
